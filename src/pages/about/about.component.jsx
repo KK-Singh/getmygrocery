@@ -6,62 +6,55 @@ import "./about.styles.css";
 import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
+import store1 from "../../assets/img/stores/store1.jpg";
+import store2 from "../../assets/img/stores/store2.jpg";
+import store3 from "../../assets/img/stores/store3.jpg";
+import store4 from "../../assets/img/stores/store4.jpg";
+import store5 from "../../assets/img/stores/store5.jpg";
 
 const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="pt-3 text-center font-details pb-3">Stores We Cover</h1>
+        {/* <container>
+          <div>
+            <img className='walmartlogo' src ={walmart}></img>
+            <img className='BombaySpice' src ={bombaySpice}></img>
+            <img className='atlanticSuperStore' src ={atlanticSS}></img>
+          </div>
+            
+         
+        </container> */}
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
-            <Col xs={10} md={6}>
+            <Col xs={10} md={3}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end photo" alt="profile" src={Profile} thumbnail fluid />
+                <Image className="profile justify-content-end photo" alt="" src={store1} thumbnail fluid />
               </Row>
             </Col>
-            <Col xs={10} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Kunal Singh</strong>
-                <br />I am a result-oriented recent graduate (Master of Applied Computer Science) from Concordia University.
-
-                <br /> Before coming to the university I had the privilege of working for Arctwist Technology Solutions where I have learned valuable professional skills such as web development (mainly front end), design and development of Single-Page web applications using React and Redux as application data management library in the frontend and NodeJS in the backend along with other libraries such as Bootstrap, react-bootstrap.
-
-                <br />
-                I have also worked on the Express framework with NodeJS for server-side applications.
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
-                <Col className="d-flex justify-content-center flex-wrap">
-                  <div>
-                    <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="KunalSingh-resumeV1.pdf" download target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://github.com/KK-Singh" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.linkedin.com/in/kunal-singh-29702b47/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
-                      </Button>
-                    </a>
-                  </div>
-                </Col>
+            <Col xs={10} md={3}>
+              <Row className="justify-content-center mb-2 mr-2 ">
+                <Image className="profile justify-content-end photo" alt="" src={store2} thumbnail fluid />
               </Row>
             </Col>
+            <Col xs={10} md={3}>
+              <Row className="justify-content-center mb-2 mr-2 ">
+                <Image className="profile justify-content-end photo" alt="" src={store3} thumbnail fluid />
+              </Row>
+            </Col>
+            <Col xs={10} md={3}>
+              <Row className="justify-content-center mb-2 mr-2 ">
+                <Image className="profile justify-content-end photo" alt="" src={store4} thumbnail fluid />
+              </Row>
+            </Col>
+            <Col xs={10} md={3}>
+              <Row className="justify-content-center mb-2 mr-2 ">
+                <Image className="profile justify-content-end photo" alt="" src={store5} thumbnail fluid />
+              </Row>
+            </Col>
+            
+            
           </Row>
         </Container>
       </div>

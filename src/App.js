@@ -3,7 +3,7 @@ import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
 import MyTitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
-import Skills from "./pages/skills/skills.component";
+// import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
 // import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Experience from "./pages/experience/experience.component";
@@ -14,7 +14,7 @@ import { Parallax } from "react-parallax";
 // import Particles from "react-particles-js";
 // import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
-import Project from "./components/projects-timeline/projects.component";
+// import Project from "./components/projects-timeline/projects.component";
 
 import "./App.css";
 
@@ -45,13 +45,13 @@ const App = () => {
           </div>
         </Parallax>
       </div>
-      <Container className="container-box rounded">
+      {/* <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <Skills />
         </Slide>
-      </Container>
-      <div>
+      </Container> */}
+      {/* <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
@@ -59,19 +59,19 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
-      </div>
+      </div> */}
       {/* <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <TimeLine />
         </Slide>
       </Container> */}
-      <Container className="container-box rounded">
+      {/* <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
           <Project />
         </Fade>
-      </Container>
+      </Container> */}
 
       <Container className="container-box rounded">
         <Fade duration={500}>
@@ -79,7 +79,6 @@ const App = () => {
           <ContactForm />
         </Fade>
       </Container>
-
       <hr />
       <FooterPanel />
     </div>
