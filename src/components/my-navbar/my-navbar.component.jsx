@@ -19,11 +19,9 @@ const MyNavbar = () => {
           </Navbar.Brand>
         </div>
         <div>
-        <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
               <Nav.Link href="https://docs.google.com/forms/d/e/1FAIpQLSexfH4br3Y8FwhpLm-yGdzCTUmF6ZPauXIxUGv_4BH3fijnyg/viewform?usp=pp_url">ORDER NOW GROCERY & LIQOUR</Nav.Link>
               </Nav>
-          </Navbar.Collapse>
         </div>
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
