@@ -1,6 +1,6 @@
 {
   "name": "getmygrocery",
-  // "homepage": "https://ks-resume.info",
+  "homepage": "https://kk-singh.github.io/getmygrocery",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages":"^2.1.1"
+  }
 }
