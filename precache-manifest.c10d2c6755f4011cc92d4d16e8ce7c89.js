@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f90a16b767c97d3b7559e0b585edfa7",
+    "revision": "b292dc13d2df224d802bcb7b3621958a",
     "url": "/getmygrocery/index.html"
   },
   {
-    "revision": "a561a02af9406945a2ed",
+    "revision": "3f206ea411101373482a",
     "url": "/getmygrocery/static/css/main.d6eaa1d2.chunk.css"
   },
   {
-    "revision": "125380dab3af9d6aa02a",
-    "url": "/getmygrocery/static/js/2.fd20404d.chunk.js"
+    "revision": "507ac08c063014cb9c76",
+    "url": "/getmygrocery/static/js/2.65f66024.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/getmygrocery/static/js/2.fd20404d.chunk.js.LICENSE.txt"
+    "url": "/getmygrocery/static/js/2.65f66024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a561a02af9406945a2ed",
-    "url": "/getmygrocery/static/js/main.b67597f8.chunk.js"
+    "revision": "3f206ea411101373482a",
+    "url": "/getmygrocery/static/js/main.61dd67c4.chunk.js"
   },
   {
     "revision": "2deb67073a7933a5ce94",
